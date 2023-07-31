@@ -1,0 +1,35 @@
+header{
+    background-color: rgb(108, 80, 153);
+    display: flex;
+}
+.imagem-item{
+    width: 20px;
+    height: 300px;;
+}*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sem serifa;
+}
+
+.cabeçalho {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.cabeçalho-imagem{
+    width: 20%;
+}
+
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 18px;
+}
+
